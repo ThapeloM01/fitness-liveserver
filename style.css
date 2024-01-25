@@ -59,6 +59,10 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+.primary-link:hover {
+    color: white;
+}
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -101,6 +105,7 @@ p {
     }
     h1 {
         font-size: 30px;
+        line-height: 1.5;
     }
     h2 {
         text-align: center;
@@ -109,7 +114,15 @@ p {
     h3 {
         text-align: center;
     }
+    p {
+        text-align: center;
+    }
     .primary-link {
         padding: 10px 6px;
+    }
+    .project-link {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
     }
 }
